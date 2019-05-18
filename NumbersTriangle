@@ -1,0 +1,13 @@
+for i in range(0, 5):
+    num=1 
+    for j in range(0, i+1):
+        print(num,end="")
+        num=num+1
+    print('')
+for i in range(0, 4):
+    num=1
+    k=0-i 
+    for j in range(0, k+4):
+        print(num,end="")
+        num=num+1
+    print('')
