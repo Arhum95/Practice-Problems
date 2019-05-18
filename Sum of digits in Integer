@@ -1,0 +1,7 @@
+n=int(input("Enter a number:"))
+sum=0
+for i in range(0, 100):
+    number=n%10
+    sum=sum+number
+    n=int(n/10)
+print(sum)
